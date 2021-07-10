@@ -110,10 +110,10 @@ figcaption{
     margin-top: 50px;
    
 }
-.download_btn{
+.fix_btn{
     display: flex;
     justify-content: left;
-    padding: 10px 20px 20px 20px;
+    
 }
 .download_btn button a{
     text-decoration: none;
@@ -257,14 +257,10 @@ figcaption{
         margin-left: 10px;
     }
 
-    .download_btn{
-        flex-direction: column;
-    }
-    .download_btn h1{
-        font-size: larger;
-        margin: 0px;
-        padding: 20px;
-        text-align: center;
+    .download_button{
+
+        display: flex;
+        justify-content: center;
     }
      .download_btn button a{
         font-size: 20px;
@@ -309,8 +305,6 @@ figcaption{
         width: 207px;
     }
     .fix_btn{
-        position: fixed;
-        bottom: 0;
         width: 100%;
         background-color: #292929;
         padding-top: 10px;
@@ -319,10 +313,12 @@ figcaption{
         display: flex;
         transition: 0.5s;
         justify-content: center;
+        position:-webkit-sticky; /* Safari */
+  position: sticky;
+  bottom:0;
+  top:200px;
     }
-    .fix_btn.shown{
-        visibility: visible;
-    }
+
 
     .fix_btn button{
       
@@ -335,7 +331,11 @@ figcaption{
         
     }
 
-    
+    .earning{
+        align-content: center;
+        display: flex;
+        justify-content: center;
+    }
 
 }
 
