@@ -1,0 +1,341 @@
+body{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    color: rgb(0, 0, 0);
+    padding: 10;
+    margin-top: 10;
+}
+.body{
+    padding: 40px;
+    
+
+    
+}
+.border{
+   background-color:#E2E2E2;
+   padding: 20px;
+}
+.its_easy_to_play_with_graczone{
+    text-align: center;
+    padding: 10px;
+    color: black;
+  
+
+}
+.images{
+  
+    display: flex;
+    justify-content: center;
+}
+
+.images img{
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    filter: drop-shadow(5px 5px 5px #000000);
+   
+}
+figcaption{
+
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header{
+    filter: drop-shadow(0px 3px 3px #000000);
+}
+
+.rank_img{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 30px;
+
+}
+
+.rank_img img{
+    filter: drop-shadow(4px 4px 4px #000000);
+    padding: 10px;
+    margin-right: 100px;
+}
+
+.rank_img p{
+    margin-left: 100px;
+    margin-top: 120px;
+    padding: 10px;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.free_img{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 30px;
+    
+}
+.free_img img{
+
+    filter: drop-shadow(4px 4px 4px #000000);
+    padding: 10px;
+    margin-left: 100px;
+
+}
+
+.free_img p{
+
+    margin-right: 100px;
+    margin-top: 60px;
+    padding: 10px;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.download_pallet{
+    background-color: black;
+    margin-top: 20px;
+
+}
+.download_pallet h1{
+    color: white;
+   margin: 0px 0px 0px 60px;
+   font-size: 50px;
+
+}
+.download_pallet img{
+    margin-left: 80px;
+    margin-top: 50px;
+   
+}
+.download_btn{
+    display: flex;
+    justify-content: left;
+    padding: 10px 20px 20px 20px;
+}
+.download_btn button a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+   
+}
+.download_btn button{
+    background-color: #0EA057;
+    border-radius: 8px;
+    border-color: white;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.download_btn h1{
+    margin-right: 30%;
+    margin-top: 15px;
+}
+.download_pallet p{
+    margin-top: 80px;
+    color: #B8B8B8;
+    font-size: larger;
+    text-align: center;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-stretch: semi-expanded;
+}
+
+.privacy_terms{
+    background-color: #292929;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 0px;
+}
+    
+
+.privacy_terms a{
+    text-decoration: none ;
+    color: #898989;
+    font-size: large;
+}
+
+.privacy_terms a:hover{
+    text-decoration: none ;
+    color:white;
+}
+
+.line {
+
+    padding: 0px !important;
+    margin: 0px !important;
+    color: #707070 !important;
+}
+.risk{
+    text-align: center;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    font-stretch: semi-expanded;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: #898989;
+
+}
+.footer p{
+    margin: 0px !important;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-device-width: 1430px){    
+
+    .body h2{
+        font-size: large;
+    }
+
+    .para{
+        font-size: small;
+    }
+
+    .its_easy_to_play_with_graczone{
+        font-size: large;
+    }
+
+    figcaption{
+        font-size: small;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    figcaption p{
+        font-size: 12px;
+        padding: 3px;
+    }
+
+    .images{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;      
+        text-align: center;  
+    }
+    
+    .images img{
+        height: 400px;
+    }
+    .rank_img img{
+        width: 200px;
+        height: 120px;
+        margin: 0px;
+        padding: 0px;
+       
+    }
+    .rank_img p{
+        margin: 0px;
+        padding: 15px;
+    }
+    .free_img img{
+        margin: 0px;
+        width: 200px;
+        height: 75px;
+        padding: 0px;
+    }
+    .free_img p{
+        margin:auto;
+        padding: 10px;
+        font-size: 10px;
+    }
+    .rank_img p{
+        font-size: 10px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+    .download_btn{
+        flex-direction: column;
+    }
+    .download_btn h1{
+        font-size: larger;
+        margin: 0px;
+        padding: 20px;
+        text-align: center;
+    }
+     .download_btn button a{
+        font-size: 20px;
+        padding: 10px;
+        margin: 0px;
+    }
+    .download_btn button a br{
+            display: none;
+    }
+   .download_btn button{
+        padding: 10px;
+        size: 10px;
+    }
+
+    .download_pallet img{
+        width: 70px;
+        height: 20px;
+        margin: 0px;
+        padding: 10px;
+    }
+    .download_pallet p{
+        margin-top: 20px;
+        font-size: medium
+    }
+    .privacy_terms {
+    
+        padding: 10px ;
+    }
+    .privacy_terms a,p{
+        font-size: small ;
+    }
+    .risk{
+        font-size: 13px;
+    }
+    .footer{
+        font-size: 8px;
+    }
+    .footer p{
+        font-size: 8px;
+    }
+    .confirm{
+        width: 207px;
+    }
+    .fix_btn{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #292929;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        z-index: 9999;
+        display: flex;
+        transition: 0.5s;
+        justify-content: center;
+    }
+    .fix_btn.shown{
+        visibility: visible;
+    }
+
+    .fix_btn button{
+      
+        background-color: #0EA057;
+        width:90%;
+        border-radius: 7px;
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+        
+    }
+
+    
+
+}
+
