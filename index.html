@@ -38,6 +38,8 @@
         <figcaption><h3>Select game</h3><p>Select the game which you <br>are interested. </p></figcaption>
         </figure>
 
+        
+
         <figure>
         <img src="images/home.jpg"  height="550px" alt="image2">
         <figcaption><h3>Select a match</h3><p> You can select from any match 
@@ -59,7 +61,7 @@
 
         <div class="rank_img">
             <img src="images/ranks_img@2x.png" height="300px" width="450px" >
-            <p>Get big prizes upto matches with winning </p>
+            <p>There can be more than one winner</p>
         </div>
 
         <div class="free_img" >
@@ -71,13 +73,23 @@
 
         <div class="download_pallet">
           <img src="images/logo.png" width="160px" height="50px">
+        </div>
+          <h1 class="download_txt">Download the app now </h1>
           
+<<<<<<< HEAD
         <div class="download_btn">
           <h1>Download the app now </h1>
             <button> <a href="app-debug.apk" download>Download our&nbsp;<br>Android App</a></button>
+=======
+      
+            <div class="fix_btn" id="fix">
+              <button id="kk"><a href="app-debug.apk" download>
+                DOWNLOAD APP</a>
+              </button>
+>>>>>>> 2b15b3eb79edc2d344e9c6c9406b73e7cad2d7b4
             </div>
 
-            <p>Start earning today! Free download available</p>
+            <p class="earning">Start earning today! Free download available</p>
             <footer class="privacy_terms">
               <a href="privacy.html" target="_blank">Privacy Policy </a>
               <p class="line">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</p>
@@ -92,24 +104,6 @@
         <footer class="footer">
             Contact us<p>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</p>graczone@gmail.com
         </footer>
-        <div class="fix_btn" id="fix">
-          <button id="kk">
-            <b>DOWNLOAD APP</b>
-          </button>
-        </div>
-
-        <script>
-  $(window).scroll(function(){
-  var threshold = 200; // number of pixels before bottom of page that you want to start fading
-  var op = (($(document).height() - $(window).height()) - $(window).scrollTop()) / threshold;
-	if( op <= 0 ){
-		$("#fix").hide();
-	} else {
-		$("#fix").show();
-	}
-	$("#fix").css("opacity", op ); 
-});
       
-        </script>
   </body>
 </html>
