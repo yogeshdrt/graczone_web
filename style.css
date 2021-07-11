@@ -1,17 +1,22 @@
 body{
     margin: 0px;
+    background-color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h2{
     color: rgb(0, 0, 0);
     padding: 10;
     margin-top: 10;
+    background-color: white;
 }
 .body{
     padding: 40px;
-    
+    background-color:white;
 
-    
+}
+
+.para{
+    background-color: white;
 }
 .border{
    background-color:#E2E2E2;
@@ -21,13 +26,14 @@ h2{
     text-align: center;
     padding: 10px;
     color: black;
-  
+    background-color:#E2E2E2;
 
 }
 .images{
   
     display: flex;
     justify-content: center;
+   
 }
 
 .images img{
@@ -51,7 +57,8 @@ figcaption{
     display: flex;
     justify-content: center;
     padding: 20px;
-    margin-top: 30px;
+    padding-top: 40px;
+    background-color: #fff;
 
 }
 
@@ -74,7 +81,9 @@ figcaption{
     display: flex;
     justify-content: center;
     padding: 20px;
-    margin-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #fff;
     
 }
 .free_img img{
@@ -103,44 +112,69 @@ figcaption{
     color: white;
    margin: 0px 0px 0px 60px;
    font-size: 50px;
+  
+}
 
+ .download_txt{
+    justify-content: center;
+    display: flex;
+    padding-top: 15px;
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    
+ 
 }
 .download_pallet img{
     margin-left: 80px;
     margin-top: 50px;
    
 }
+
 .fix_btn{
+    justify-content: center;
     display: flex;
-    justify-content: left;
-    
+    margin-top: 40px;
 }
-.download_btn button a{
-    text-decoration: none;
-    font-size: 30px;
-    color: white;
-   
-}
-.download_btn button{
+
+#kk{
     background-color: #0EA057;
-    border-radius: 8px;
+    border-radius: 50px;
     border-color: white;
     padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+    
+}
+#kk a,b{
+    text-decoration: none;
+    color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
 }
-.download_btn h1{
-    margin-right: 30%;
-    margin-top: 15px;
-}
-.download_pallet p{
+
+
+
+.earning{
+    align-content: center;
+    display: flex;
+    justify-content: center;
     margin-top: 80px;
     color: #B8B8B8;
     font-size: larger;
-    text-align: center;
     padding: 20px;
+    padding-top:50px ;
+    margin-bottom: 0px;
+    margin-top: 80px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-stretch: semi-expanded;
+    background-color: black;
 }
+
+
 
 .privacy_terms{
     background-color: #292929;
@@ -172,7 +206,12 @@ figcaption{
     text-align: center;
     color: black;
     padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 40px;
     font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #fff;
     font-stretch: semi-expanded;
 }
 
@@ -181,6 +220,7 @@ figcaption{
     justify-content: center;
     padding: 20px;
     color: #898989;
+    background-color: #fff;
 
 }
 .footer p{
@@ -240,6 +280,7 @@ figcaption{
         margin: 0px;
         padding: 15px;
     }
+   
     .free_img img{
         margin: 0px;
         width: 200px;
@@ -257,23 +298,17 @@ figcaption{
         margin-left: 10px;
     }
 
-    .download_button{
+    .download_txt{
 
         display: flex;
         justify-content: center;
+        font-size: 30px;
+        margin-left: 0%;
+        margin-top: 0px;
     }
-     .download_btn button a{
-        font-size: 20px;
-        padding: 10px;
-        margin: 0px;
-    }
-    .download_btn button a br{
-            display: none;
-    }
-   .download_btn button{
-        padding: 10px;
-        size: 10px;
-    }
+
+
+
 
     .download_pallet img{
         width: 70px;
@@ -306,7 +341,7 @@ figcaption{
     }
     .fix_btn{
         width: 100%;
-        background-color: #292929;
+        background-color: black;
         padding-top: 10px;
         padding-bottom: 10px;
         z-index: 9999;
@@ -314,32 +349,41 @@ figcaption{
         transition: 0.5s;
         justify-content: center;
         position:-webkit-sticky; /* Safari */
-  position: sticky;
-  bottom:0;
-  top:200px;
+        position: sticky;
+        bottom:0;
+        top:200px;
     }
     .fix_btn a{
         text-decoration: none;
         color: white;
     }
 
-
-    .fix_btn button{
-      
-        background-color: #0EA057;
-        width:90%;
-        border-radius: 7px;
-        color: white;
-        font-size: 20px;
-        padding: 10px;
-        
-    }
-
-    .earning{
-        align-content: center;
+    #kk{
+        padding-top: 10px;
+        padding-bottom: 10px;
         display: flex;
+        border-radius: 8px;
         justify-content: center;
-    }
+        width: 90%;
+        }
+
+        #kk a{
+           font-size: 20px;
+          
+            }
+        
+.earning{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: #B8B8B8;
+    font-size: small;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-stretch: semi-expanded;
+    background-color: black;
+}
 
 }
 
