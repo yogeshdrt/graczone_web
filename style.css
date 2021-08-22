@@ -221,10 +221,13 @@ figcaption{
     padding: 20px;
     color: #898989;
     background-color: #fff;
+  text-align: center;
+    flex-direction: column;
 
 }
-.footer p{
-    margin: 0px !important;
+.copyright{
+    font-size: 13px;
+    padding: 5px;
 }
 
 
@@ -234,8 +237,7 @@ figcaption{
 
 
 
-
-@media screen and (max-device-width: 1430px){    
+@media screen and (max-device-width: 1400px){    
 
     .body h2{
         font-size: large;
